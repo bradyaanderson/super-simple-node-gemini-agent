@@ -41,7 +41,7 @@ class GeminiChat {
 // Main function to handle CLI interaction
 async function main() {
   const chat = new GeminiChat();
-  console.log("Welcome to Gemini Chat! (Type 'quit' to exit)");
+  console.log("Welcome to Super Simple Gemini Agent! (Type 'quit' to exit)");
 
   while (true) {
     const userInput = readlineSync.question("\nYou: ");
