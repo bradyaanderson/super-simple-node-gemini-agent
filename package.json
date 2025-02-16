@@ -13,7 +13,13 @@
   "description": "A super simple node gemini agent.",
   "devDependencies": {
     "@types/node": "^22.13.4",
+    "@types/readline-sync": "^1.4.8",
     "ts-node": "^10.9.2",
     "typescript": "^5.7.3"
+  },
+  "dependencies": {
+    "@google/generative-ai": "^0.21.0",
+    "dotenv": "^16.4.7",
+    "readline-sync": "^1.4.10"
   }
 }
