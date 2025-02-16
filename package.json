@@ -1,0 +1,19 @@
+{
+  "name": "super-simple-node-gemini-agent",
+  "version": "0.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "npx ts-node src/index.ts",
+    "build": "tsc",
+    "run": "node dist/index.js"
+  },
+  "keywords": [],
+  "author": "Brady Anderson",
+  "license": "ISC",
+  "description": "A super simple node gemini agent.",
+  "devDependencies": {
+    "@types/node": "^22.13.4",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.7.3"
+  }
+}
